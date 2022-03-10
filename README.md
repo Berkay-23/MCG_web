@@ -1,7 +1,7 @@
 # MCG_web
-Minecraft Code Generator
+__Minecraft Code Generator__
 
-Website address: http://yameh.pythonanywhere.com/
+__Website address:__ __http://yameh.pythonanywhere.com/__
 
 • Main Page
 ---------------------
