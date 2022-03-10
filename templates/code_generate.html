@@ -1,0 +1,80 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Generate Code
+{% endblock title %}
+
+
+{% block body %}
+    {% if model %}
+        <div class="container container-main">
+
+            <div class="features col-8">
+
+                <div class="container noselect" id="enchantListArea">
+
+                    <hr style="color: #ffc107; opacity: 1; width: 100%">
+
+                    {% for item_list in model %}
+                        <div class="enchhant_box ">
+
+                        <span>
+                            <h5>{{ item_list[1] }}</h5>
+                        </span>
+
+                            <div class="counter">
+                                <span class="minus" id="minus_{{ item_list[0] }}"><i
+                                        class="fa-solid fa-minus fa-sm"></i></span>
+                                <input class="form-counter form-control" type="text" value="{{ item_list[2] }}"
+                                       id="input_{{ item_list[0] }}"/>
+                                <span class="plus" id="plus_{{ item_list[0] }}"><i
+                                        class="fa-solid fa-plus fa-sm"></i></span>
+                            </div>
+                        </div>
+                    {% endfor %}
+
+
+                    <hr style="color: #ffc107; opacity: 1; width: 100%">
+                </div>
+
+                <div class="d-flex justify-content-between btn-edit">
+                    <button class="btn btn-outline-success" id="btn_default" type="button"><b>Refresh Values</b>
+                    </button>
+                    <button class="btn btn-outline-danger" id="btn_max" type="button"><b>Max Values</b></button>
+                </div>
+
+            </div>
+
+            <div class="images col-4">
+                <img src="../{{ path }}">
+            </div>
+        </div>
+
+        {% if meterials %}
+            <div id="meterialsArea" class="container">
+                {% for meterial in meterials %}
+                    <div class="btn-group">
+                        <input type="radio" class="btn-check" name="btnradio" id="btnradio_{{ meterial }}"
+                               autocomplete="off">
+                        <label class="btn btn-outline-light" for="btnradio_{{ meterial }}">{{ meterial }}</label>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        <div class="container code-area">
+            <div class="form-floating">
+                <textarea class="form-control bg-dark" id="text-area"></textarea>
+                <label class="text-white" for="text_area">Generated Code</label>
+                <span class="copied noselect">Copied !</span>
+                <button type="button" class="btn btn-outline-warning" id="btn-copy">Copy</button>
+            </div>
+        </div>
+
+        <script>
+            let model = {{ model|tojson|safe }};
+            let raw_meterials = {{ meterials|tojson|safe }};
+            let item_name = {{ item|tojson|safe }}
+        </script>
+    {% endif %}
+{% endblock body %}

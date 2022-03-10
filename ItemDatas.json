@@ -1,0 +1,1361 @@
+{
+  "Enchants": {
+    "aqua_affinity": {
+      "Items": [
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        }
+      ],
+      "MaxLevel": 1,
+      "Name": "aqua_affinity"
+    },
+    "bane_of_arthropods": {
+      "CounterEnchants": [
+        "smite",
+        "sharpness"
+      ],
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 5,
+      "Name": "bane_of_arthropods"
+    },
+    "blast_protection": {
+      "CounterEnchants": [
+        "fire_protection",
+        "projectile_protection",
+        "protection"
+      ],
+      "Items": [
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        },
+        {
+          "Name": "chestplate",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "leggings",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 4,
+      "Name": "blast_protection"
+    },
+    "channeling": {
+      "CounterEnchants": [
+        "riptide"
+      ],
+      "Items": [
+        {
+          "Name": "trident"
+        }
+      ],
+      "MaxLevel": 1,
+      "Name": "channeling"
+    },
+    "depth_strider": {
+      "CounterEnchants": [
+        "frost_walker"
+      ],
+      "Items": [
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "depth_strider"
+    },
+    "efficiency": {
+      "Items": [
+        {
+          "Name": "pickaxe"
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "shovel",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "hoe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 5,
+      "Name": "efficiency"
+    },
+    "feather_falling": {
+      "Items": [
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 4,
+      "Name": "feather_falling"
+    },
+    "fire_aspect": {
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 2,
+      "Name": "fire_aspect"
+    },
+    "fire_protection": {
+      "CounterEnchants": [
+        "blast_protection",
+        "projectile_protection",
+        "protection"
+      ],
+      "Items": [
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        },
+        {
+          "Name": "chestplate",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "leggings",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 4,
+      "Name": "fire_protection"
+    },
+    "flame": {
+      "Items": [
+        {
+          "Name": "bow"
+        }
+      ],
+      "MaxLevel": 1,
+      "Name": "flame"
+    },
+    "fortune": {
+      "CounterEnchants": [
+        "silk_touch"
+      ],
+      "Items": [
+        {
+          "Name": "pickaxe"
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "shovel",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "hoe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "fortune"
+    },
+    "frost_walker": {
+      "CounterEnchants": [
+        "depth_strider"
+      ],
+      "Items": [
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 2,
+      "Name": "frost_walker"
+    },
+    "impaling": {
+      "Items": [
+        {
+          "Name": "trident"
+        }
+      ],
+      "MaxLevel": 5,
+      "Name": "impaling"
+    },
+    "infinity": {
+      "CounterEnchants": [
+        "mending"
+      ],
+      "Items": [
+        {
+          "Name": "bow"
+        }
+      ],
+      "MaxLevel": 1,
+      "Name": "infinity"
+    },
+    "knockback": {
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 2,
+      "Name": "knockback"
+    },
+    "looting": {
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "looting"
+    },
+    "loyalty": {
+      "CounterEnchants": [
+        "riptide"
+      ],
+      "Items": [
+        {
+          "Name": "trident"
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "loyalty"
+    },
+    "luck_of_sea": {
+      "Items": [
+        {
+          "Name": "fishing_rod"
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "luck_of_sea"
+    },
+    "lure": {
+      "Items": [
+        {
+          "Name": "fishing_rod"
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "lure"
+    },
+    "mending": {
+      "CounterEnchants": [
+        "infinity"
+      ],
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "pickaxe"
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "shovel",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "hoe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "bow"
+        },
+        {
+          "Name": "crossbow"
+        },
+        {
+          "Name": "trident"
+        },
+        {
+          "Name": "fishing_rod"
+        },
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        },
+        {
+          "Name": "chestplate",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "leggings",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 1,
+      "Name": "mending"
+    },
+    "multishot": {
+      "CounterEnchants": [
+        "piercing"
+      ],
+      "Items": [
+        {
+          "Name": "crossbow"
+        }
+      ],
+      "MaxLevel": 1,
+      "Name": "multishot"
+    },
+    "piercing": {
+      "CounterEnchants": [
+        "multishot"
+      ],
+      "Items": [
+        {
+          "Name": "crossbow"
+        }
+      ],
+      "MaxLevel": 4,
+      "Name": "piercing"
+    },
+    "power": {
+      "Items": [
+        {
+          "Name": "bow"
+        }
+      ],
+      "MaxLevel": 5,
+      "Name": "power"
+    },
+    "projectile_protection": {
+      "CounterEnchants": [
+        "blast_protection",
+        "fire_protection",
+        "protection"
+      ],
+      "Items": [
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        },
+        {
+          "Name": "chestplate",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "leggings",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 4,
+      "Name": "projectile_protection"
+    },
+    "protection": {
+      "CounterEnchants": [
+        "blast_protection",
+        "fire_protection",
+        "projectile_protection"
+      ],
+      "Items": [
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        },
+        {
+          "Name": "chestplate",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "leggings",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 4,
+      "Name": "protection"
+    },
+    "punch": {
+      "Items": [
+        {
+          "Name": "bow"
+        }
+      ],
+      "MaxLevel": 2,
+      "Name": "punch"
+    },
+    "quick_charge": {
+      "Items": [
+        {
+          "Name": "crossbow"
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "quick_charge"
+    },
+    "respiration": {
+      "Items": [
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "respiration"
+    },
+    "riptide": {
+      "CounterEnchants": [
+        "channeling",
+        "loyalty"
+      ],
+      "Items": [
+        {
+          "Name": "trident"
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "riptide"
+    },
+    "sharpness": {
+      "CounterEnchants": [
+        "bane_of_arthropods",
+        "smite"
+      ],
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 5,
+      "Name": "sharpness"
+    },
+    "silk_touch": {
+      "CounterEnchants": [
+        "fortune"
+      ],
+      "Items": [
+        {
+          "Name": "pickaxe"
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "shovel",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "hoe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 1,
+      "Name": "silk_touch"
+    },
+    "smite": {
+      "CounterEnchants": [
+        "bane_of_arthropods",
+        "sharpness"
+      ],
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 5,
+      "Name": "smite"
+    },
+    "sweeping": {
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "sweeping"
+    },
+    "thorns": {
+      "Items": [
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        },
+        {
+          "Name": "chestplate",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "leggings",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "thorns"
+    },
+    "unbreaking": {
+      "Items": [
+        {
+          "Name": "sword",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "pickaxe"
+        },
+        {
+          "Name": "axe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "shovel",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "hoe",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "stone",
+            "wooden"
+          ]
+        },
+        {
+          "Name": "bow"
+        },
+        {
+          "Name": "crossbow"
+        },
+        {
+          "Name": "trident"
+        },
+        {
+          "Name": "fishing_rod"
+        },
+        {
+          "Name": "helmet",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "turtle"
+          ]
+        },
+        {
+          "Name": "chestplate",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "leggings",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail"
+          ]
+        },
+        {
+          "Name": "boots",
+          "RawMaterials": [
+            "netherite",
+            "diamond",
+            "golden",
+            "iron",
+            "chainmail",
+            "leather"
+          ]
+        }
+      ],
+      "MaxLevel": 3,
+      "Name": "unbreaking"
+    }
+  },
+  "ItemDetail": {
+    "axe": {
+      "Enchants": [
+        "bane_of_arthropods",
+        "efficiency",
+        "fortune",
+        "mending",
+        "sharpness",
+        "silk_touch",
+        "smite",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/axe.gif",
+      "Item": {
+        "Name": "axe",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "stone",
+          "wooden"
+        ]
+      }
+    },
+    "boots": {
+      "Enchants": [
+        "blast_protection",
+        "depth_strider",
+        "feather_falling",
+        "fire_protection",
+        "frost_walker",
+        "mending",
+        "projectile_protection",
+        "protection",
+        "thorns",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/boots.webp",
+      "Item": {
+        "Name": "boots",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "chainmail",
+          "leather"
+        ]
+      }
+    },
+    "bow": {
+      "Enchants": [
+        "flame",
+        "infinity",
+        "mending",
+        "power",
+        "punch",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/bow.gif",
+      "Item": {
+        "Name": "bow"
+      }
+    },
+    "chestplate": {
+      "Enchants": [
+        "blast_protection",
+        "fire_protection",
+        "mending",
+        "projectile_protection",
+        "protection",
+        "thorns",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/chestplate.webp",
+      "Item": {
+        "Name": "chestplate",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "chainmail"
+        ]
+      }
+    },
+    "crossbow": {
+      "Enchants": [
+        "mending",
+        "multishot",
+        "piercing",
+        "quick_charge",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/crossbow.webp",
+      "Item": {
+        "Name": "crossbow"
+      }
+    },
+    "fishing_rod": {
+      "Enchants": [
+        "luck_of_sea",
+        "lure",
+        "mending",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/fishing_rod.gif",
+      "Item": {
+        "Name": "fishing_rod"
+      }
+    },
+    "helmet": {
+      "Enchants": [
+        "aqua_affinity",
+        "blast_protection",
+        "fire_protection",
+        "mending",
+        "projectile_protection",
+        "protection",
+        "respiration",
+        "thorns",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/helmet.webp",
+      "Item": {
+        "Name": "helmet",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "chainmail",
+          "turtle"
+        ]
+      }
+    },
+    "hoe": {
+      "Enchants": [
+        "efficiency",
+        "fortune",
+        "mending",
+        "silk_touch",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/hoe.gif",
+      "Item": {
+        "Name": "hoe",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "stone",
+          "wooden"
+        ]
+      }
+    },
+    "leggings": {
+      "Enchants": [
+        "blast_protection",
+        "fire_protection",
+        "mending",
+        "projectile_protection",
+        "protection",
+        "thorns",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/leggings.webp",
+      "Item": {
+        "Name": "leggings",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "chainmail"
+        ]
+      }
+    },
+    "pickaxe": {
+      "Enchants": [
+        "efficiency",
+        "fortune",
+        "mending",
+        "silk_touch",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/pickaxe.gif",
+      "Item": {
+        "Name": "pickaxe"
+      }
+    },
+    "shovel": {
+      "Enchants": [
+        "efficiency",
+        "fortune",
+        "mending",
+        "silk_touch",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/shovel.gif",
+      "Item": {
+        "Name": "shovel",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "stone",
+          "wooden"
+        ]
+      }
+    },
+    "sword": {
+      "Enchants": [
+        "bane_of_arthropods",
+        "fire_aspect",
+        "knockback",
+        "looting",
+        "mending",
+        "sharpness",
+        "smite",
+        "sweeping",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/sword.gif",
+      "Item": {
+        "Name": "sword",
+        "RawMaterials": [
+          "netherite",
+          "diamond",
+          "golden",
+          "iron",
+          "stone",
+          "wooden"
+        ]
+      }
+    },
+    "trident": {
+      "Enchants": [
+        "channeling",
+        "impaling",
+        "loyalty",
+        "mending",
+        "riptide",
+        "unbreaking"
+      ],
+      "ImagePath": "static/images/trident.gif",
+      "Item": {
+        "Name": "trident"
+      }
+    }
+  },
+  "Items": {
+    "axe": {
+      "Name": "axe",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "stone",
+        "wooden"
+      ]
+    },
+    "boots": {
+      "Name": "boots",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "chainmail",
+        "leather"
+      ]
+    },
+    "bow": {
+      "Name": "bow"
+    },
+    "chestplate": {
+      "Name": "chestplate",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "chainmail"
+      ]
+    },
+    "crossbow": {
+      "Name": "crossbow"
+    },
+    "fishing_rod": {
+      "Name": "fishing_rod"
+    },
+    "helmet": {
+      "Name": "helmet",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "chainmail",
+        "turtle"
+      ]
+    },
+    "hoe": {
+      "Name": "hoe",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "stone",
+        "wooden"
+      ]
+    },
+    "leggings": {
+      "Name": "leggings",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "chainmail"
+      ]
+    },
+    "pickaxe": {
+      "Name": "pickaxe"
+    },
+    "shovel": {
+      "Name": "shovel",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "stone",
+        "wooden"
+      ]
+    },
+    "sword": {
+      "Name": "sword",
+      "RawMaterials": [
+        "netherite",
+        "diamond",
+        "golden",
+        "iron",
+        "stone",
+        "wooden"
+      ]
+    },
+    "trident": {
+      "Name": "trident"
+    }
+  }
+}

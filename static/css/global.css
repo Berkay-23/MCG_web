@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+}
+
+body {
+    background: #d5d4d4;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.container-main {
+    margin: 20px auto 20px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #22262a;
+    border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#enchantArea {
+    background-color: #212529ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+}
+
+#submit_area {
+    padding: 5px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    border: 5px solid #ffc107;
+    background: rgb(255, 255, 255, 1);
+    border-radius: 20px;
+}
+
+.images img {
+    width: 95%;
+    border-radius: 10px;
+}
+
+#enchantListArea {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 90%;
+}
+
+.container-toggle {
+    text-align: center;
+}
+
+.enchhant_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 3rem;
+    margin: 5px;
+    padding: 3px;
+    background-color: #ffc107;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.enchhant_box h5 {
+    margin: 0;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.form-counter {
+    max-width: 60px;
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+}
+
+.minus, .plus {
+    text-align: center;
+}
+
+.minus:hover, .plus:hover {
+    color: #fff;
+    animation: animation 0.5s ease forwards;
+}
+
+@keyframes animation {
+
+    0% {
+        transform: rotate(100deg);
+    }
+
+    40% {
+        transform: rotate(200deg);
+    }
+
+    80% {
+        transform: rotate(-70deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.btn-edit button {
+    width: 30%;
+}
+
+.code-area {
+    position: relative;
+    border-radius: 5px;
+    background: #212529;
+    margin: 20px auto 0px auto;
+}
+
+.code-area textarea {
+    width: 90%;
+    border: none;
+    outline: none;
+    resize: none;
+    box-shadow: none;
+    overflow-y: hidden;
+    color: #ffffff;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+}
+
+#text-area {
+    height: 150px;
+}
+
+.code-area textarea:focus {
+    box-shadow: none;
+    color: #ffffff;
+}
+
+.code-area button {
+    position: absolute;
+    left: calc(100% - 110px);
+    top: 10px;
+    width: 100px;
+}
+
+.copied {
+    position: absolute;
+    text-align: center;
+    left: calc(100% - 110px);
+    top: 60px;
+    width: 100px;
+    border-radius: 5px;
+    background: #198754;
+    color: #fff;
+    opacity: 0;
+}
+
+.c-act {
+    animation: copy_animation_act 0.5s ease forwards;
+}
+
+.c-deact {
+    animation: copy_animation_deact 0.5s ease forwards;
+}
+
+@keyframes copy_animation_act {
+
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    80% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes copy_animation_deact {
+
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#meterialsArea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: #212529;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#meterialsArea label {
+    width: 100px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 1400px){
+    .container-main, #meterialsArea, .code-area{
+        min-width: 98%;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .container-main {
+        flex-direction: column-reverse;
+        align-items: center;
+        min-width: 98%;
+    }
+
+    .features {
+        width: 100%;
+        align-items: center;
+    }
+
+
+    #enchantListArea {
+        width: 100%;
+    }
+
+    #enchantArea .btn-group {
+        flex-wrap: wrap;
+    }
+
+    #enchantArea .btn-group label {
+        width: 220px;
+        margin: 1px;
+    }
+
+    .features .dropdown {
+        width: 50%;
+    }
+
+    .features .dropdown button {
+        width: 100%;
+    }
+
+    .images {
+        width: 75%;
+    }
+
+    #submit_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #submit_area .dropdown, .button, .container-toggle {
+        width: 50%;
+        margin: 3px;
+        padding: 2px;
+    }
+
+    #submit_area .button button {
+        width: 100%;
+    }
+
+    .container-toggle {
+        order: 2;
+        text-align: right;
+    }
+
+    .btn-edit{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 990px) {
+
+    #meterialsArea, .code-area{
+        min-width: 98%;
+    }
+
+    .btn-edit button{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    #submit_area .dropdown, .button, .container-toggle {
+        width: 75%;
+    }
+    .btn-edit button{
+        width: 48%;
+    }
+}
+@media screen and (max-width: 570px) {
+    .features .dropdown {
+        width: 80%;
+    }
+    #submit_area .dropdown, .button, .container-toggle {
+        width: 100%;
+    }
+    .btn-edit{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .btn-edit button{
+        width: 80%;
+        margin: 3px;
+    }
+}
